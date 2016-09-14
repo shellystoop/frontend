@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>aanmelden</title>
+</head>
+<body>
+ <h1>Aanmelden</h1>
+  <form>
+  
+  <fieldset>
+<label for="naam">Naam:</label><br>
+<input type="text" name="firstname">
+<br>
+<label for="tussenvoegsel">Tussenvoegsel:</label><br>
+<input type="text" name="Particle">
+<br>
+<label for="achternaam">Achternaam:</label><br>
+<input type="text" name="lastname">
+<br>
+<label for="email">Email:</label><br>
+<input type="email" name="email"><br>
+<label for="telefoonnummer">Telefoonnummer:</label><br>
+<input type="tel" name="phonenumber">
+</fieldset>
+
+<fieldset>
+<label for="Straat">Straat en huisnummer:</label><br>
+<input type="text" name="street">
+<input type="number" name="Address">
+<br>
+<label for="postcode">Postcode en plaats:</label><br>
+<input type="text" name="zipcode" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}">
+<input type="text" name="town">
+</fieldset>
+
+<fieldset>
+<label for="wachtwoord">Wachtwoord:</label><br>
+<input type="password" name="password"><br>
+<label for="herhaal wachtwoord">Herhaal wachtwoord:</label><br>
+<input type="password" name="psword">
+</fieldset>
+<br>
+
+<button type="submit">Aanmelden</button>
+
+</form>
+</body>
+</html>
